@@ -1,0 +1,50 @@
+﻿li {
+    list-style-type: square;
+}
+
+span[id=cena] {
+    color: red;
+    font-weight: bold;
+} 
+
+p[class=wstęp] {
+    font-style: italic;
+}
+
+td img {
+    border-style: solid;
+    border-color: blue;
+}
+
+td img:hover {
+    border-style: solid;
+    border-color: red;
+}
+
+h1 + h2 {
+    letter-spacing: 5px;
+}
+
+td[colspan="2"] p {
+    font-size: small;
+}
+
+p + p {
+    color: grey;
+}
+
+body {
+    background-image: url(2.jpg);
+    background-repeat: repeat-y;
+}
+/* Zadanie 19 - last rule*/
+h1 {
+    color: blue
+}
+
+h1 {
+    color: green
+}
+/* Zadanie 20 - last one used no matter from css file or from style*/
+/* Zadanie 21 - rule with important statement*/
+/* Zadanie 22 - rule with important statement, if no then style in h1*/
